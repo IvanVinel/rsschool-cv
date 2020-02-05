@@ -16,14 +16,14 @@
  ---------|---------|---------|---------|
  C++/C# | .Net/QT | Scrum/Waterfall/Kanban/Scrumban | Git 
 4. ### Code Examples:
-```
+```javascript
  const checkPalindrome = (str) => {
   const reversedStr = str.split('').reverse().join('');
   return reversedStr === str;
  }
  ```
 5. ### Experience:
- For now i have only self education as an experience
+* For now i have only self education as an experience
 6. ### Education:
 * BSUIR, Faculty of Computer Systems and Networks, Department of Electronic Computing Machines
 * A1QA, Software Testing
