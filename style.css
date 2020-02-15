@@ -5,7 +5,6 @@
 body {
     background-color: antiquewhite;
     max-width: 1024px;
-    align-items: center;
 }
 
 header {
@@ -40,7 +39,6 @@ footer {
 }
 
 footer h2 {
-    
     padding: 40px 0;
 }
 
@@ -57,7 +55,7 @@ footer h2 {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 23px 23px;
+    padding: 10px 10px;
     text-decoration: none;  
     cursor: pointer;
     border: 2px solid black;
@@ -82,7 +80,7 @@ footer h2 {
     padding: 5px 25px;
     text-align: center;
     border-left: 1px solid black;
-
+    font-size: 1rem;
 }
 
 #summary {
@@ -92,6 +90,8 @@ footer h2 {
 #summary li {
     text-align: start;
     padding: 5px 0 0 10px;
+    margin: 10px;
+    font-size: 1.3rem;
 }
 
 #skills div {
@@ -101,7 +101,7 @@ footer h2 {
     vertical-align: top;
     width: 30%;
     border: 1px solid black;
-    box-shadow: 5px 10px black;
+    box-shadow: 3px 5px black;
 }
 
 #skills div h3, 
@@ -110,4 +110,26 @@ footer h2 {
     flex-direction: column;
     padding: 10px;
     border-bottom: 1px solid black;
+}
+
+#experience {
+    vertical-align: auto;
+}
+
+#experience span {
+    display: flex;
+    padding: 0 0 10px 10px;
+    justify-content: flex-start;
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+#education div {
+    display: inline-block;
+    margin: 20px 0 20px 120px;
+    text-align: left;
+    vertical-align: top;
+    width: 27%;
+    font-size: 1rem;
+    
 }
