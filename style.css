@@ -5,6 +5,7 @@
 body {
     background-color: antiquewhite;
     max-width: 1024px;
+    align-items: center;
 }
 
 header {
@@ -39,7 +40,7 @@ footer {
 }
 
 footer h2 {
-    text-size-adjust: 1rem;
+    
     padding: 40px 0;
 }
 
@@ -91,4 +92,22 @@ footer h2 {
 #summary li {
     text-align: start;
     padding: 5px 0 0 10px;
+}
+
+#skills div {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    border: 1px solid black;
+    box-shadow: 5px 10px black;
+}
+
+#skills div h3, 
+#skills div span {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
